@@ -1,4 +1,11 @@
-# TCGP Helper Bot
+
+
+<p align="center">
+  <a href="https://tcno.co/">
+    <img src="https://i.imgur.com/AiKHAMQ.png"></a>
+</p>
+
+# TCGP Helper - Discord bot
 
 Discord Support Server: https://discord.gg/2zSUgWJyYJ
 <br>
