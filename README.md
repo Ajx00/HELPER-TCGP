@@ -58,8 +58,8 @@ python-dotenv==1.0.0<br>
 aiohttp==3.9.1<br>
 
 ### 2. Setup
-1. Copy .env.example to .env
-   TOKEN=your_bot_token_here
+1. Open .env and add the discord bot token<br>
+   TOKEN=your_bot_token_here<br>
 
 2. Invite Bot (Discord Developer Portal)
    - Intents: Message Content, Guilds, Members, Reactions
