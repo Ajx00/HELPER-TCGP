@@ -43,11 +43,12 @@ Save time, boost trades, and keep your server organized!
 - /pick4me: Random Wonder Pick helper.
 - /meta: Latest TCGP meta decks.
 
-## Screenshots
-<comming soon>
 
 ## Quick Start
 
+<details>
+<summary>💬 <b>Installation</b></summary>
+  
 ### 1. Installation
 git clone https://github.com/ajx00/HELPER-TCGP.git<br>
 cd HELPER-TCGP<br>
@@ -76,9 +77,12 @@ aiohttp==3.9.1<br>
 3. Done! Channels, filters, and stats are ready.
 
 Bot auto-restores setup on restart.
+</details>
 
-## Configuration
 
+<details>
+<summary>💬 <b>Configuration</b></summary>
+  
 - bot_config.json (auto-generated): Stores packs, series, guild settings.<br>
   {<br>
     "series": { "A-Series": ["palkia", "dialga", ...] },<br>
@@ -88,6 +92,7 @@ Bot auto-restores setup on restart.
 - Add Packs/Series (Owner only):
   /addseries "C-Series"
   /addpack "C-Series" "newpack"
+</details>
 
 ## Commands
 
@@ -140,11 +145,4 @@ Bot needs:
 
 - Support Server: https://discord.gg/2zSUgWJyYJ
 - Issues: https://github.com/ajx00/HELPER-TCGP/issues
-- Contribute: Fork → PR! (See CONTRIBUTING.md)
-
-
-
-## License
-MIT License - Free for all!
-
-Star if useful! Questions? Ping in support!
+- Contribute: Please make suggestions and contribute to this project
