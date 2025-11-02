@@ -37,6 +37,7 @@ Save time, boost trades, and keep your server organized!
 - One-Command Wizard (/setup): Creates categories, channels, and configs.
 - Modes: Series (1 channel per group) or Per-Pack.
 - Dynamic Packs: Add/remove packs/series globally with auto-cleanup.
+    - This will add/remove also packs/series channels/categories if bot has permissions in discord
 
 ### Fun Extras
 - /pick4me: Random Wonder Pick helper.
