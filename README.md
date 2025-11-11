@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <a href="https://tcno.co/">
+  <a>
     <img src="https://i.imgur.com/AiKHAMQ.png"></a>
 </p>
 
