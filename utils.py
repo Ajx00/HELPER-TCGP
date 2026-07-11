@@ -762,15 +762,13 @@ def load_lifetime_stats_messages():
 # AUTOCOMPLETE & CHECKS
 # ============================================================
 
-def get_pack_choices():
-    return [app_commands.Choice(name=pack.title(), value=pack) for pack in PACKS[:25]]
+def get_pack_choices(current: str = ""):
+    packs = [p for p in PACKS if current.lower() in p.lower()] if current else PACKS
+    return [app_commands.Choice(name=pack.title(), value=pack) for pack in packs[:25]]
 
 
 async def autocomplete_packs(interaction: discord.Interaction, current: str) -> list[app_commands.Choice[str]]:
-    choices = get_pack_choices()
-    if not current:
-        return choices
-    return [c for c in choices if current.lower() in c.value.lower()][:25]
+    return get_pack_choices(current)
 
 
 async def autocomplete_series(interaction: discord.Interaction, current: str) -> list[app_commands.Choice[str]]:
